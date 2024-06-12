@@ -17,7 +17,7 @@ const MyWork=()=>{
             })}
         </div>
         <div className="mywork-showmore">
-            <p>Show More</p>
+            <a className='mywork-showmore-link'  href='https://github.com/kulkarnih123' target='_blank'><p>Show More</p></a>
             <img src={arrow_icon} alt="" />
         </div>
        </div>

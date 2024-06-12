@@ -1,40 +1,40 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+import zerodha from '../assets/zerodha.png'
+import portfolio from '../assets/portfolio.png'
+import spicelean from '../assets/spicelean.png'
+import shopper from '../assets/shopper.png'
+import youtube from '../assets/youtube.png'
+import todoboardUI from '../assets/todoboardUI.png'
 
 const mywork_data = [
     {
         w_no:1,
         w_name:"Web design",
-        w_img:project1_img
+        w_img:zerodha
     },
     {
         w_no:2,
         w_name:"Web design",
-        w_img:project2_img
+        w_img:portfolio
     },
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img
+        w_img:spicelean
     },
     {
         w_no:4,
         w_name:"Web design",
-        w_img:project4_img
+        w_img:shopper
     },
     {
         w_no:5,
         w_name:"Web design",
-        w_img:project5_img
+        w_img:youtube
     },
     {
         w_no:6,
         w_name:"Web design",
-        w_img:project6_img
+        w_img:todoboardUI
     },
 ]
  

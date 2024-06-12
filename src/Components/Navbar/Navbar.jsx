@@ -5,6 +5,7 @@ import underline from '../../assets/nav_underline.svg'
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
+import lkdn from '../../assets/lkdn.svg'
 
 const Navbar = () =>{
 
@@ -26,11 +27,11 @@ const Navbar = () =>{
                 <img src={menu_close} onClick={closeMenu} className="nav-mob-close" alt="" />
                 <li><AnchorLink className="anchor-link" href="#home"><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt=''/>:<></>}</li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#about"><p onClick={()=>setMenu("About")}>About Me</p></AnchorLink>{menu==="About"?<img src={underline} alt=''/>:<></>} </li>
-                <li><AnchorLink className="anchor-link" offset={50} href="#services"><p onClick={()=>setMenu("Services")}>Services</p></AnchorLink>{menu==="Services"?<img src={underline} alt=''/>:<></>} </li>
+                <li><AnchorLink className="anchor-link" offset={50} href="#services"><p onClick={()=>setMenu("Services")}>My Skills</p></AnchorLink>{menu==="Services"?<img src={underline} alt=''/>:<></>} </li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#work"><p onClick={()=>setMenu("Protfolio")}>Protfolio</p></AnchorLink>{menu==="Protfolio"?<img src={underline} alt=''/>:<></>} </li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#contact"><p onClick={()=>setMenu("Contact")}>Contact</p></AnchorLink>{menu==="Contact"?<img src={underline} alt=''/>:<></>} </li>
             </ul>
-            <div className="nav-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect With Me</AnchorLink></div>
+            <div className="nav-connect"><a href="https://www.linkedin.com/in/hanumesh-kulkarni/" target="_blank"><img src={lkdn} alt="" /></a></div>
         </div>
     )
 }

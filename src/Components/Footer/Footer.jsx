@@ -8,7 +8,7 @@ const Footer=()=>{
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img className='footer-logo' src={HKG} alt="" />
-                    <p>I am a frontend developer from, India with 1+ years of experience and im ready to take works please feel free to contact</p>
+                    <p>I am a frontend developer from India with 1+ years of experience and im ready to take works. please feel free to contact</p>
                 </div>
                 <div className="footer-top-right">
                     <div className="footer-email-input">
@@ -20,7 +20,7 @@ const Footer=()=>{
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className="footer-bottom-left">@ 2023 Hanumesh Kulkarni.All rights reserved</p>
+                <p className="footer-bottom-left"><span>&#169;</span> 2024 Hanumesh Kulkarni.All rights reserved</p>
                 <div className="footer-bottom-right">
                     <p>Term of Services</p>
                     <p>Privacy Policy</p>

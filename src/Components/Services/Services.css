@@ -55,6 +55,13 @@
     line-height: 40px;
     max-width: 300px;
 }
+.services-a{
+    text-decoration: none;
+}
+.services-format-img{
+    height: 70px;
+    width: 70px;
+}
 .services-readmore{
     display: flex;
     gap: 20px;
